@@ -112,13 +112,13 @@ class Person {
   gender = "female"
   age = "19"
   get info(){
-    return `${this.firstName},${this._lastName},${this._gender},${this._age}`
+    return `${this._firstName},${this._lastName},${this._gender},${this._age}`
   }
   set age(years){
     this._age = years
   }
   toString(){
-    return `person is ${this.age}`
+    return `${this.firstName} is ${this.age}`
   }
 }
 
